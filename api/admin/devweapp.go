@@ -50,6 +50,8 @@ type submitAuditReq struct {
 	FeedbackInfo  string      `json:"feedbackInfo" wx:"feedback_info"`
 	FeedbackStuff string      `json:"feedbackStuff" wx:"feedback_stuff"`
 	UgcDeclare    ugcDeclare  `json:"ugcDeclare" wx:"ugc_declare"`
+	privacyApiNotUse string      `json:"privacyApiNotUse" wx:"privacy_api_not_use"`
+
 }
 
 type submitAuditResp struct {
