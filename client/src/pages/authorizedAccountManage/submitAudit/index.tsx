@@ -237,7 +237,7 @@ export default function SubmitAudit() {
                 hasAuditTeam,
                 auditDesc,
             },
-            privacy_api_not_use:true
+            privacyApiNotUse:true
         } as any
         if ((scene || []).includes(0)) {
             data.ugcDeclare.scene = [0]
